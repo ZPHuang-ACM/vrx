@@ -9,7 +9,7 @@ teleop:
         target: linear.x
         scale: 1.0
       -
-        axis: 3
+        axis: 4
         target: angular.z
         scale: 1.0
 
@@ -23,7 +23,7 @@ teleop:
     message_type: std_msgs/Float32
     topic_name: /wamv/thrusters/left_thrust_angle
     axis_mappings:
-      - axis: 2
+      - axis: 3
         target: data
         scale: -1.0
 
@@ -32,7 +32,7 @@ teleop:
     message_type: std_msgs/Float32
     topic_name: /wamv/thrusters/right_thrust_angle
     axis_mappings:
-      - axis: 2
+      - axis: 3
         target: data
         scale: -1.0
   
